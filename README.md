@@ -32,7 +32,7 @@ Since yolo assumes fixed number of anchor boxes per cell of the grid, hence it w
 To infer and make predictions from the model, please find the code section under `Inference` heading in Dataset_Analysis_Prep.ipynb
 - Model is able to achieve 1.4 fps on core i5 cpu using python (it gets better when inference is done suign darknet)
 - This is how the map progresses over iterations:
-![chart_yolov4.png](chart_yolov4.png)
+![yolov4_chart.png](yolov4_chart.png)
 
 
 ### False negative:
