@@ -6,7 +6,7 @@
 - [Primary Analysis](https://github.com/Neelisha-saxena/yolov4_object_detection#primary-analysis)
 - [Assumptions](https://github.com/Neelisha-saxena/yolov4_object_detection#assumptions)
 - [Inference](https://github.com/Neelisha-saxena/yolov4_object_detection#inference)
-- [False positives](https://github.com/Neelisha-saxena/yolov4_object_detection#false-positives)
+- [False negative](https://github.com/Neelisha-saxena/yolov4_object_detection#false-negative)
 - [Conclusion](https://github.com/Neelisha-saxena/yolov4_object_detection#conclusion)
 - [Recommendations](https://github.com/Neelisha-saxena/yolov4_object_detection#recommendations)
 - [Usage](https://github.com/Neelisha-saxena/yolov4_object_detection#usage)
@@ -32,7 +32,7 @@ Since yolo assumes fixed number of anchor boxes per cell of the grid, hence it w
 To infer and make predictions from the model, please find the code section under `Inference` heading in Dataset_Analysis_Prep.ipynb
 - Model is able to achieve 1.4 fps on core i5 cpu using python (it gets better when inference is done suign darknet)
 - This is how the map progresses over iterations:
-![yolov4_chart.png](yolov4_chart.png)
+![chart_yolov4-custom.png](chart_yolov4-custom.png)
 
 
 ### False negative:
